@@ -37,7 +37,7 @@ def hello_world():
 
 @app.route('/commits/')
 def commitschart():
-    return rendertemplate('commits.html')
+    return rendertemplate('void.html')
 
 @app.route('/api/commits/')
 def api_commits():
